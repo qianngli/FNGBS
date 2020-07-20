@@ -1,17 +1,6 @@
 FNGBS
 ======
 **This is an implementation of  A Fast Neighborhood Grouping Method for Hyperspectral Band Selection.**
-
-Citation 
---------
-**Please consider cite this paper if you find it helpful.**
-
-@article{wang2020afast,
-
-	title={A Fast Neighborhood Grouping Method for Hyperspectral Band Selection},
-	author={Q. Wang, Q. Li and X. Li},
-	journal={IEEE Transactions on Geoscience and Remote Sensing},
-	year={2020}}
   
 Dataset
 ------
@@ -23,7 +12,7 @@ Requirement
 
 Implementation
 --------
-**The ADAM optimizer with beta_1 = 0.9, beta _2 = 0.999 is employed to train our network.  The learning rate is initialized as 10^-4 for all layers, which decreases by a half at every 35 epochs.**
+**With respect to FNGBS algorithm, to run the code, please perform 'main.m'. As for obtained recommended bands, we need run 'main_recomBand.m'. **
 
 Result
 --------
@@ -39,12 +28,26 @@ Classification Performance Comparison:
 ![Image text](https://raw.githubusercontent.com/qianngli/Images/master/indian_pines.png)
 ![Image text](https://raw.githubusercontent.com/qianngli/Images/master/Bot.png)
 ![Image text](https://raw.githubusercontent.com/qianngli/Images/master/PU.png)
-![Image text](https://raw.githubusercontent.com/qianngli/Images/master/Slinas.png)
+![Image text](https://raw.githubusercontent.com/qianngli/Images/master/Salinas.png)
 
 Computational Time Comparison
 -------
-| Scale  |  CAVE |  Harvard |  Foster |
+| Dataset  |  E-FDPC |  WaLuDi |  SNNC | TOF | FNGBS (1%)| FNGBS (100%) |
 | :------------: | :------------: | :------------: | :------------: | 
-|  x2 |  45.102 / 0.9738 / 2.241 | 46.263 / 0.9827 / 1.883  | 58.878 / 0.9988 / 4.061 | 
-|  x3 |  41.031 / 0.9526 / 2.809  |  42.681 / 0.9627 / 2.214 | 55.017 / 0.9970 / 5.126  |   
-|  x4 | 39.026 / 0.9319 / 3.292 |  40.081 / 0.9367 / 2.410 | 52.225 / 0.9941 / 5.685  | 
+|  Indian Pines (6 bands) | 0.121 | 7.430 | 0.4411 | 0.4165 | 0.2542 | 0.2995 | 
+|  Botswana (8 bands)|   0.661 | 99.281 | 3.738 | 1.843 | 0.892 | 3.442 |   
+|  Pavia University (13 bands) | 0.282 | 27.930 | 1.201 | 0.925 | 0.336 | 1.421 |
+|  Salinas (6 bands) | 0.381 | 40.382 | 1.61 | 1.276 | 0.465 | 1.464 |
+
+Citation 
+--------
+**Please consider cite this paper if you find it helpful.**
+
+@article{wang2020afast,
+	title={A Fast Neighborhood Grouping Method for Hyperspectral Band Selection},
+	author={Q. Wang, Q. Li and X. Li},
+	journal={IEEE Transactions on Geoscience and Remote Sensing},
+	year={2020}}
+	
+--------
+**If you has any questions, please send e-mail to liqmges@gmail.com. **
