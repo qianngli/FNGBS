@@ -48,7 +48,9 @@ Citation
 	title={A Fast Neighborhood Grouping Method for Hyperspectral Band Selection},
 	author={Q. Wang, Q. Li and X. Li},
 	journal={IEEE Transactions on Geoscience and Remote Sensing},
-	year={2020}}
+	year={2020},
+	doi={10.1109/JSTARS.2019.2941454}
+	}
 	
 	
 --------
