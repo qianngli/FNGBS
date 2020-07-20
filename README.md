@@ -49,7 +49,7 @@ Citation
 	author={Q. Wang, Q. Li and X. Li},
 	journal={IEEE Transactions on Geoscience and Remote Sensing},
 	year={2020},
-	doi={10.1109/JSTARS.2019.2941454}
+	doi={10.1109/TGRS.2020.3011002}
 	}
 	
 	
