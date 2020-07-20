@@ -51,7 +51,6 @@ for classNum = 1:length(range)
     K = range(classNum) + 1;
     bandSubspace = subspacePart(S,Band,K);
     selectedBand = repBands(K, bandSubspace,S,mVar);
-    RecommandBand(classNum) = recomBand(selectedBand,img); 
 
 %% separate test set and training set
     clsCnt = length(unique(Label))-1; 
