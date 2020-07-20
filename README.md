@@ -4,7 +4,7 @@ FNGBS
   
 Dataset
 ------
-**Four public datasets, i.e., [Indian Pines](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Indian Pines"), [Botswana](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Botswana"), [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Pavia University")， [Salinas](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Salinas"), are employed to verify the effectiveness of the  proposed FNGBS.
+**Four public datasets, i.e., [Indian Pines](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Indian Pines"), [Botswana](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Botswana"), [Pavia University](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Pavia University")， and [Salinas](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes "Salinas"), are employed to verify the effectiveness of the  proposed FNGBS.
 
 Requirement
 ---------
@@ -33,7 +33,7 @@ Classification Performance Comparison:
 Computational Time Comparison
 -------
 | Dataset  |  E-FDPC |  WaLuDi |  SNNC | TOF | FNGBS (1%)| FNGBS (100%) |
-| :------------: | :------------: | :------------: | :------------: | 
+| :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | 
 |  Indian Pines (6 bands) | 0.121 | 7.430 | 0.4411 | 0.4165 | 0.2542 | 0.2995 | 
 |  Botswana (8 bands)|   0.661 | 99.281 | 3.738 | 1.843 | 0.892 | 3.442 |   
 |  Pavia University (13 bands) | 0.282 | 27.930 | 1.201 | 0.925 | 0.336 | 1.421 |
@@ -50,6 +50,6 @@ Citation
 	journal={IEEE Transactions on Geoscience and Remote Sensing},
 	year={2020}}
 	
-If you has any questions, please send e-mail to liqmges@gmail.com.	
+	
 --------
-
+If you has any questions, please send e-mail to liqmges@gmail.com.
