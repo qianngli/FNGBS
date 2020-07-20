@@ -12,7 +12,7 @@ Requirement
 
 Implementation
 --------
-**With respect to FNGBS algorithm, to run the code, please perform 'main.m'. As for obtained recommended bands, we need run 'main_recomBand.m'.**
+**With respect to FNGBS algorithm, to run the code, please perform 'main.m'. As for obtained recommended bands, we need to conduct 'main_recomBand.m'.**
 
 Result
 --------
