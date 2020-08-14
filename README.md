@@ -20,15 +20,15 @@ Result
 
 Recommended Bands Comparison:
 ---------
-![Image text](https://raw.githubusercontent.com/qianngli/Images/master/recom.png)
+![Image text](https://raw.githubusercontent.com/qianngli/Images/master/FNGBS/recom.png)
 
 
 Classification Performance Comparison:
 ----------
-![Image text](https://raw.githubusercontent.com/qianngli/Images/master/indian_pines.png)
-![Image text](https://raw.githubusercontent.com/qianngli/Images/master/Bot.png)
-![Image text](https://raw.githubusercontent.com/qianngli/Images/master/PU.png)
-![Image text](https://raw.githubusercontent.com/qianngli/Images/master/Salinas.png)
+![Image text](https://raw.githubusercontent.com/qianngli/Images/master/FNGBS/indian_pines.png)
+![Image text](https://raw.githubusercontent.com/qianngli/Images/master/FNGBS/Bot.png)
+![Image text](https://raw.githubusercontent.com/qianngli/Images/master/FNGBS/PU.png)
+![Image text](https://raw.githubusercontent.com/qianngli/Images/master/FNGBS/Salinas.png)
 
 Computational Time Comparison
 -------
