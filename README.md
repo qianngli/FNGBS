@@ -18,7 +18,7 @@ Implementation
 | :------------: | :------------: | :------------: |
 | Indian Pines | 2  |10%|
 | Botswana | 2  |1%|
-| Pavia University: | 3  |1%|
+| Pavia University | 3  |1%|
 | Salinas | 3  |1%|
 
 Result
