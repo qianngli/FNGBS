@@ -28,7 +28,7 @@ img = reshape(imgz,Band,M*N);
 %% compute information entropy
 
 totalNumber = M*N;
-randNumber = floor(totalNumber*0.01);
+randNumber = floor(totalNumber*0.01);  # hyperparameter  0.01 or 0.1
 for i=1:Band
     randIndex(i,:) = randperm(totalNumber,randNumber);
     imgx(i,:) = img(i,randIndex(i,:));
