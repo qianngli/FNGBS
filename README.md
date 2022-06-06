@@ -12,7 +12,14 @@ Requirement
 
 Implementation
 --------
-**With respect to FNGBS algorithm, to run the code, please perform 'main.m'. As for obtained recommended bands, we need to conduct 'main_recomBand.m'.**
+**With respect to FNGBS algorithm, to run the code, please perform 'main.m'. As for obtained recommended bands, we need to conduct 'main_recomBand.m'. Note that the hyperparameters of each dataset is set as follows**
+
+| Dataset | k | Z |
+| :------------: | :------------: | :------------: |
+| Indian Pines | 2  |10%|
+| Botswana | 2  |1%|
+| Pavia University: | 3  |1%|
+| Salinas | 3  |1%|
 
 Result
 --------
