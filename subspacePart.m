@@ -20,9 +20,8 @@ for inter = 1:5
         if i == 2
            indexr = floor((bandSubspace(i+1) - bandSubspace(i))/2);
            tr = bandSubspace(i) + indexr; % get the distance to the next center (right)
-
            ZL = S(t,1:(t-1)); % the left of the class center     
-           ZR = S((t+1):tr); % the right of the class center   
+           ZR = S(t,(t+1):tr); % the right of the class center  
 
            indexL = find(ZL<R(1:(t-1)));
            R(indexL) = ZL(indexL);
