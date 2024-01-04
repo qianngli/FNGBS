@@ -58,7 +58,7 @@ for inter = 1:5
            end
 
            ZL = S(t,tl+1:(t-1)); % the left of the class center 
-           ZR = S((t+1):tr-1); % the right of the class center     
+           ZR = S(t,(t+1):tr-1); % the right of the class center       
            indexL = find(ZL<R(tl+1:(t-1)));
            R(tl+1+indexL) = ZL(indexL);       
            L(tl+1+indexL) = class;
